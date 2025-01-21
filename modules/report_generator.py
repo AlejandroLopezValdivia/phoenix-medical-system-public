@@ -4,7 +4,6 @@ from datetime import datetime
 import os
 import subprocess
 
-
 # Funciones para generar los comentarios (como se mostró antes)
 def generate_comment_IMC(patient):
     if patient.imc >= 30:
@@ -253,11 +252,6 @@ def replace_recommendations(para, patient):
     run = para.add_run(para_text)
     run.font.size = Pt(10)  # Cambiar el tamaño de la fuente
     run.font.name = 'Aptos (Cuerpo)'  # Cambiar la fuente a una fuente común
-
-import os
-import subprocess
-from docx import Document
-from datetime import datetime
 
 # Función para convertir el archivo Word a PDF usando unoconv
 def convert_word_to_pdf(input_path, output_path):
