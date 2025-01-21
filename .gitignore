@@ -12,9 +12,14 @@ venv/
 *.env
 secrets.json
 
+
 # Excluir configuraciones de IDEs
 .vscode/
 .idea/
+
+# Excluir archivos del sistema operativo
+.DS_Store
+Thumbs.db
 
 # Excluir logs y archivos temporales
 *.log
