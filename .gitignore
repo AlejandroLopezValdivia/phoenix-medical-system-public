@@ -1,0 +1,30 @@
+# Excluir archivos y carpetas generados automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Excluir entornos virtuales
+venv/
+.env/
+
+# Excluir datos sensibles
+*.env
+secrets.json
+
+# Excluir configuraciones de IDEs
+.vscode/
+.idea/
+
+# Excluir logs y archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Excluir carpetas específicas a bibliotecas o frameworks
+.ipynb_checkpoints/
+
+# Excluir cualquier cosa relacionada con tests generados automáticamente
+tests/__pycache__/
